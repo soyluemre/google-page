@@ -56,7 +56,7 @@ main {
 /* Images */
 
 main > img {
-    width: 20rem;
+    width: 18rem;
     margin: 6rem auto 2rem auto;
 }
 
@@ -132,9 +132,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    margin-left: 1rem;
     padding: 1rem 0;
-    margin: 0 .5rem 0 1rem;
 }
 
 footer a:hover {
@@ -145,21 +143,24 @@ footer a:hover {
 @media (max-width:765px) {
 
 main > img {
-    width: 15rem;
+    width: 13rem;
     margin: 5rem auto 2rem auto;
 }
 
 
 .searchInput {
-    width: 70%;
+    width: 80%;
     height: 2.7rem;
 }
 
-.searchInput > input {
-    width: 100%;
+button {
     border: none;
-    outline: none;
-    padding: .5rem 1rem;
+    width: 7rem;
+    padding: .4rem;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: .3rem;
+    font-size: .8rem;
 }
 
 }
